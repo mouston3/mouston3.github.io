@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@1,300;1,400 & display=swap');
+
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+
+:root{
+--first-color : blue; 
+
+}
+
+body{
+font-family: "montserrt", sans-serif;
+padding: 1rem 150px 0px 150px  ;
+}
+
+html{
+scroll-behavior: smooth;
+
+}
+
+header{
+border: 1px solid red;
+}
+.header title{
+    color: aqua; 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+   text-decoration: none; 
+   color: black;
+}
+
+.nav--link{
+    margin-left: 0.5rem ;
+}
+
+.brand{
+    display: flex;
+    border: 1px solid red;
+    padding-left: 0.5rem;
+}
+
+.brand-left{
+    border: 1px solid red;
+    width: 60%;
+}
+
+.brand-right{
+    border: 1px solid red ;
+    width: 40%;
+}
+
+.img-container{
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    border: 0.8rem solid var(--first-color);
+}
+
+img{
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.8rem solid white;
+
+
+}
+
+.brand-left-header{
+    font-size: 2rem ;
+}
+
+.btn{
+    margin-top: 2rem;
+    width: 25%;
+    background: none;
+    font-size: 1rem;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0.3em 0.3em var(--first-color),inset 0.3em var(--first-color);
+}
+
+.brand-description{
+    margin-top: 0.5rem;
+}
+
+.btn:hover{
+    box-shadow: 0em 0em var(--first-color),inset 0em var(--first-color);
+}

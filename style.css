@@ -15,7 +15,7 @@ box-sizing: border-box;
 
 body{
 font-family: "montserrt", sans-serif;
-padding: 1rem 150px 0px 150px  ;
+padding: 1rem 200px 0px 200px  ;
 }
 
 html{
@@ -24,7 +24,8 @@ scroll-behavior: smooth;
 }
 
 header{
-border: 1px solid red;
+
+
 }
 .header title{
     color: aqua; 
@@ -45,17 +46,17 @@ a{
 
 .brand{
     display: flex;
-    border: 1px solid red;
+    margin-top: 1rem;
     padding-left: 0.5rem;
 }
 
 .brand-left{
-    border: 1px solid red;
+    
     width: 60%;
 }
 
 .brand-right{
-    border: 1px solid red ;
+   
     width: 40%;
 }
 
@@ -66,7 +67,7 @@ a{
     border: 0.8rem solid var(--first-color);
 }
 
-img{
+.img-container img{
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -97,4 +98,16 @@ img{
 
 .btn:hover{
     box-shadow: 0em 0em var(--first-color),inset 0em var(--first-color);
+}
+
+.partners{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.partners img{
+    width: 22%;
+
 }
